@@ -1,0 +1,51 @@
+.nav-item{
+  background-color: aqua;
+  border: blue solid 2px;
+  border-radius: 3px;
+  margin: 25px 2px 0px 2px;
+}
+@media screen and (max-width: 992px) {
+    #me {
+        
+      height: 250px;
+    }
+  }
+@media screen and (max-width: 768px) {
+    #me {
+      height: 300px;
+    }
+    .nav-item{
+      margin: 0px 2px 20px 2px;
+    }
+  }
+  #me{
+    border: black solid 2px;
+    border-radius: 50%;
+  }
+  body{
+    color: beige;
+    background-image: url("../images/background.png");
+    background-size: 100%;
+    
+    
+}
+
+footer{ 
+  border-top: solid 8px #4aaaa5;
+  font-size: 10px;
+  background-color: #666666;
+  color: beige;
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  height: 50px;
+  text-align: center;
+}
+.wrapper{
+  min-height: 100%;
+}
+.push{
+  height: 50px;
+}
+#white{
+  color:beige;
+}
