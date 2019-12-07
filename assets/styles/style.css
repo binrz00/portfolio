@@ -1,8 +1,11 @@
 .nav-item{
-  background-color: aqua;
+  background-color: transparent;
   border: blue solid 2px;
   border-radius: 3px;
   margin: 25px 2px 0px 2px;
+}
+.nav-link{
+  color: beige;
 }
 @media screen and (max-width: 992px) {
     #me {
