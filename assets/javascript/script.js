@@ -11,3 +11,11 @@ function myFunction(size) {
   
   myFunction(size) 
   size.addListener(myFunction)
+  const button = document.getElementById("button");
+  button.addEventListener("click",function(){
+    const userName = document.getElementById("nameInput").value;
+    const userEmail = document.getElementById("emailInput").value;
+    const userMessage = document.getElementById("messageInput").value;
+    alert(`thank you ${userName} for submitting ${userMessage} I will respnd to you at ${userEmail} `);
+
+  })
