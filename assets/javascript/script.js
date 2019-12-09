@@ -17,5 +17,4 @@ function myFunction(size) {
     const userEmail = document.getElementById("emailInput").value;
     const userMessage = document.getElementById("messageInput").value;
     alert(`thank you ${userName} for submitting ${userMessage} I will respnd to you at ${userEmail} `);
-
-  })
+  });
